@@ -1,0 +1,20 @@
+body {
+  height:100%;
+  width:100%;
+  background-color: #dd9999;
+  background-color: #E288A0;
+  font-family: arial, sans-serif;
+}
+
+div.board {
+	width: 30%;
+	background-color: #E288A0;
+	background-color: rgba(255,255,255,0.5);
+	border: 7px solid #B71F45;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	float: right;
+	left: -35%;
+	padding: 20px;
+}
