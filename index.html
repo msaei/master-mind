@@ -4,6 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/base.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/game.js"></script>
 		<title>Master Mind</title>
 	</head>
 
@@ -12,7 +14,7 @@
 		<div class="board">
 
 			<div class="cell">
-
+			<h1 id="hidden">Hidden</h1>
 			<select id="first">
   				<option value="A">A</option>
   				<option value="B">B</option>
@@ -48,7 +50,7 @@
   				<option value="E">E</option>
   				<option value="F">F</option>
 			</select>
-			<button type="button">Click Me!</button>
+			<button type="button" onclick="main()">Click Me!</button>
 			</div>
 		</div>
 	<body>
