@@ -1,0 +1,68 @@
+<DOCTYPE! html>
+
+
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/base.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/game.js"></script>
+		<title>Master Mind</title>
+	</head>
+
+	<body>
+
+		<div class="board">
+			<a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)" target = "_blank">
+				<p>how to play this game ?</P> </a>
+			<div class="tray">
+				<div class="pin"></div>
+				<div class="pin"></div>
+				<div class="pin"></div>
+				<div class="pin"></div>
+			</div>
+			<hr/>
+			<div class="cell">
+			
+			<h3 id="hidden"> ? ? ? ? </h3>
+			
+			<select id="first">
+  				<option value="A">A</option>
+  				<option value="B">B</option>
+  				<option value="C">C</option>
+  				<option value="D">D</option>
+  				<option value="E">E</option>
+  				<option value="F">F</option>
+			</select>
+
+			<select id="second">
+  				<option value="A">A</option>
+  				<option value="B">B</option>
+  				<option value="C">C</option>
+  				<option value="D">D</option>
+  				<option value="E">E</option>
+  				<option value="F">F</option>
+			</select>
+
+			<select id="third">
+  				<option value="A">A</option>
+  				<option value="B">B</option>
+  				<option value="C">C</option>
+  				<option value="D">D</option>
+  				<option value="E">E</option>
+  				<option value="F">F</option>
+			</select>
+
+			<select id="forth">
+  				<option value="A">A</option>
+  				<option value="B">B</option>
+  				<option value="C">C</option>
+  				<option value="D">D</option>
+  				<option value="E">E</option>
+  				<option value="F">F</option>
+			</select>
+			<button type="button" onclick="main()">Evaluate!</button>
+			</div>
+		</div>
+	<body>
+		
