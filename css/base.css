@@ -1,8 +1,8 @@
 body {
-  height:100%;
-  width:100%;
-  background-color: #dd9999;
-  background-color: #E288A0;
+  /*height:100%;
+  width:100%;*/
+  background-color: gray;
+
   font-family: arial, sans-serif;
 }
 
@@ -17,4 +17,116 @@ div.board {
 	float: right;
 	left: -35%;
 	padding: 20px;
+}
+
+hr {
+	clear: both;
+}
+
+.pin {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background-color: blue;
+	border-radius: 50%;
+
+}
+
+.tray {
+	clear: both;
+	position: relative;
+}
+
+.code-place {
+
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 50%;
+	padding: auto;
+
+}
+
+.game-tray {
+	background-color: orange;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px; /* adjust line height to align vertically*/
+  padding:0;
+  border-radius: 50%;
+}
+
+#checker1 {
+	background-color: blue;
+	opacity: 1;
+}
+
+#checker2 {
+	background-color: red;
+	opacity: 1;
+}
+
+#checker3 {
+	background-color: green;
+	opacity: 1;
+}
+
+#checker4 {
+	background-color: yellow;
+	opacity: 1;
+}
+
+#hidden1 {
+	background-color: blue;
+	opacity: 1;
+}
+
+#hidden2 {
+	background-color: red;
+	opacity: 1;
+}
+
+#hidden3 {
+	background-color: green;
+	opacity: 1;
+}
+
+#hidden4 {
+	background-color: yellow;
+	opacity: 1;
+}
+
+#picker1 {
+	background-color: blue;
+}
+
+#picker2 {
+	background-color: red;
+}
+
+#picker3 {
+	background-color: green;
+}
+
+#picker4 {
+	background-color: yellow;
+}
+
+#picker5 {
+	background-color: black;
+}
+
+#picker6 {
+	background-color: white;
+}
+
+#hidden-div {
+	background-color: orange;
+}
+
+#submit {
+	margin: 8px;
 }

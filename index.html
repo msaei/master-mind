@@ -1,57 +1,67 @@
+
 <DOCTYPE! html>
 
 <html lang="en-us">
 	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/base.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="js/game.js"></script>
+
 		<title>Master Mind</title>
+		<meta charset="utf-8">
+		
+		
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<!-- Latest compiled and minified CSS -->
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/base.css">
+  		<!-- jQuery library -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  		<!-- Latest compiled JavaScript -->
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- fontawsome cdn link -->
+		<script src="https://use.fontawesome.com/8cbd727842.js"></script>
+		<script src="js/game.js"></script>
+		
 	</head>
 
 	<body>
 
-		<div class="board">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					
 
-			<div class="cell">
-			<h1 id="hidden">Hidden</h1>
-			<select id="first">
-  				<option value="A">A</option>
-  				<option value="B">B</option>
-  				<option value="C">C</option>
-  				<option value="D">D</option>
-  				<option value="E">E</option>
-  				<option value="F">F</option>
-			</select>
-
-			<select id="second">
-  				<option value="A">A</option>
-  				<option value="B">B</option>
-  				<option value="C">C</option>
-  				<option value="D">D</option>
-  				<option value="E">E</option>
-  				<option value="F">F</option>
-			</select>
-
-			<select id="third">
-  				<option value="A">A</option>
-  				<option value="B">B</option>
-  				<option value="C">C</option>
-  				<option value="D">D</option>
-  				<option value="E">E</option>
-  				<option value="F">F</option>
-			</select>
-
-			<select id="forth">
-  				<option value="A">A</option>
-  				<option value="B">B</option>
-  				<option value="C">C</option>
-  				<option value="D">D</option>
-  				<option value="E">E</option>
-  				<option value="F">F</option>
-			</select>
-			<button type="button" onclick="main()">Click Me!</button>
+					<p id="color-picker">
+						<a href="#" class="btn btn-default btn-circle picker" id="picker1" data-code="a"></a>
+						<a href="#" class="btn btn-default btn-circle picker" id="picker2" data-code="b"></a>
+						<a href="#" class="btn btn-default btn-circle picker" id="picker3" data-code="c"></a>
+						<a href="#" class="btn btn-default btn-circle picker" id="picker4" data-code="d"></a>
+						<a href="#" class="btn btn-default btn-circle picker" id="picker5" data-code="e"></a>
+						<a href="#" class="btn btn-default btn-circle picker" id="picker6" data-code="f"></a>
+					</p>
+					<button id="submit" class="btn btn-primary">evaluate</button>
+					<p id="hidden-div">
+						
+						<a href="#" class="btn btn-default btn-circle " id="hidden1" disabled></a>
+						<a href="#" class="btn btn-default btn-circle " id="hidden2" disabled></a>
+						<a href="#" class="btn btn-default btn-circle " id="hidden3" disabled></a>
+						<a href="#" class="btn btn-default btn-circle " id="hidden4" disabled></a>
+						
+					</p>
+					<p>
+						
+						<a href="#" class="btn btn-default btn-circle checker" id="checker1" data-code="a"></a>
+						<a href="#" class="btn btn-default btn-circle checker" id="checker2" data-code="b"></a>
+						<a href="#" class="btn btn-default btn-circle checker" id="checker3" data-code="c"></a>
+						<a href="#" class="btn btn-default btn-circle checker" id="checker4" data-code="d"></a>
+						
+					</p>
+					<hr>
+					<div id="log-div"></div>
+						
+				</div>
 			</div>
+			
 		</div>
-	<body>
-		
+	</body>
+</html>
+
